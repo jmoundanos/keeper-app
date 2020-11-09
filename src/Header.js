@@ -3,8 +3,10 @@ import "./style.css";
 
 function Header(){
     return (
-        <div className="header"></div>
+        <div>
+            <h1>Keeper App</h1>
+        </div>
     )
-}
+};
 
 export default Header;

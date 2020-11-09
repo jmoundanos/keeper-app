@@ -3,6 +3,10 @@ import "./style.css";
 
 function Footer(){
     return (
-        <div className="footer"></div>
+        <div>
+            <p></p>
+        </div>
     )
 }
+
+export default Footer;
