@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+
 
 function Note(){
     return (
@@ -10,4 +10,4 @@ function Note(){
     )
 }
 
-export default Note
+export default Note;
