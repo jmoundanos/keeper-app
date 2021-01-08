@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 300;
 }
 body {
   background: #eee;
@@ -16,11 +17,12 @@ header {
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  text-align: center; 
 }
 
 header h1 {
   color: #fff;
-  font-family: "Lobster", cursive;
+  font-family: "Courgette", cursive;
   font-weight: 200;
 }
 
