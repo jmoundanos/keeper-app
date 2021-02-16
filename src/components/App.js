@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
+import CreateNote from"./CreateNote";
 
-import CreateNote from "./CreateNote";
 
 class App extends Component {
     render(){
@@ -16,6 +16,7 @@ class App extends Component {
                     key={1}
                     title="Note title"
                     content="Content"
+                    />
                 <Footer />
             </div>
         )
