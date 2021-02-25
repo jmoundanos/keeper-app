@@ -16,12 +16,15 @@ function CreateNote(){
         };
     });
     }
+    function addNote(event){
+        event.preventDefault();
+    }
     return (
         <div>
             <form>
             <input onChange={handleChange} name="title" value={note.title} placeholder="Title" />
             <textarea onChange={handleChange} name="content" value={note.content} placeholder="Take a note" />
-            <button>Add</button>
+            <button onClick={addNote}>Add</button>
             </form>
         </div>
     );
