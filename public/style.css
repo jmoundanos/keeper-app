@@ -33,7 +33,8 @@ header h1 {
   width: 56px;
   height: 36px;
   outline: none;
-  background-color: #794c74;
+  color: #794c74;
+  background-color: #fff;
  
 }
 form{
