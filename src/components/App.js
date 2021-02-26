@@ -7,11 +7,14 @@ import CreateNote from"./CreateNote";
 
 
 class App extends Component {
+    function addNote(note){
+        console.log(note)
+    }
     render(){
         return(
             <div>
                 <Header />
-                <CreateNote />
+                <CreateNote onAdd={addNote}/>
                 <Note 
                     key={1}
                     title="Note title"

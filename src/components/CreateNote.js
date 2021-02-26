@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 
 
-function CreateNote(){
+function CreateNote(props){
     const [note, setNote] = useState({
         title: "",
         content: ""
@@ -18,6 +18,7 @@ function CreateNote(){
     }
     function addNote(event){
         event.preventDefault();
+        props.onAdd(note);
     }
     return (
         <div>
